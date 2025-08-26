@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <!-- <img src="background-image.jpg" alt="Lush, green path under a blue sky next to a river."> -->
+      <div>
+        <!-- <img src="odin-lined.png" alt="Odin Logo"> -->
+        <h1>ODIN</h1>
+      </div>
+      <!-- <p>Image provided by: <span>https://whvn.cc/7j2xdo</span></p> -->
+    </div>
+
+    <main>
+      <div>
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+
+      <form action="https://httpin.org/post" method="post">
+        <div>
+          <p>Let's do this</p>
+          <div>
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" name="first_name" id="first_name" />
+          </div>
+          <div>
+            <label for="last_name">LAST NAME</label>
+            <input type="text" name="last_name" id="last_name" />
+          </div>
+          <div>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="phone_number">PHONE NUMBER</label>
+            <input type="tel" name="phone_number" id="phone_number" />
+          </div>
+          <div>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div>
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              name="confirm_password"
+              id="confirm_password"
+            />
+          </div>
+        </div>
+        <div>
+          <button type="submit">Create Account</button>
+        </div>
+        <div>
+          <p>
+            Already have an account? <span><a href="#">Log in</a></span>
+          </p>
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
