@@ -32,7 +32,7 @@
         <p>You <em>know</em> you want to.</p>
       </div>
 
-      <form action="https://httpin.org/post" method="post" class="sign-up-form">
+      <form action="#" method="post" class="sign-up-form">
         <div class="sign-up-form-main">
           <p>Let's do this!</p>
           <div>
@@ -49,11 +49,21 @@
           </div>
           <div>
             <label for="phone_number">PHONE NUMBER</label>
-            <input type="tel" name="phone_number" id="phone_number" />
+            <input
+              type="tel"
+              name="phone_number"
+              id="phone_number"
+              pattern="[0-9]{10,16}"
+            />
           </div>
           <div>
             <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password" />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              pattern="[a-zA-Z0-9]{9,14}"
+            />
           </div>
           <div>
             <label for="confirm_password">CONFIRM PASSWORD</label>

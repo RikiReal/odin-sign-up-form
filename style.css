@@ -89,11 +89,27 @@ main {
 }
 
 label {
-  display: block;
+  display: inline-block;
 }
 
 input {
-  padding: 5px 0;
+  padding: 5px 5px;
+  border: 1px solid #E5E7EB;
+  outline: none;
+  border-radius: 5px;
+}
+
+input:user-invalid {
+  border: 1px solid red;
+}
+
+input:user-valid {
+  border: 1px solid green;
+}
+
+input:focus-visible {
+  border: 1px solid blue;
+  box-shadow: 0px 7px 10px -10px #000000;
 }
 
 .sign-up-form-main {
